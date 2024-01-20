@@ -1,0 +1,32 @@
+{
+  "descriptionHash": "9192FB34DA0836D271A35CF153B856D09DF7EEBA8D0846A5F35CC1C1DC8E2D0700ABFD5EE5D5207C9A072F1DAF76D9285FDE72D9031517354DFED9650C818FBF",
+  "descriptionLocation": "https://developer.clicktime.com/docs/api/swagger.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.10.1",
+  "clientClassName": "ClickTimeClient",
+  "clientNamespaceName": "ClickTime.NET.Generated",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain;q=0.9",
+    "application/x-www-form-urlencoded;q=0.2",
+    "multipart/form-data;q=0.1"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTime.NET", "ClickTime.NET\ClickTime.NET.csproj", "{91BECB38-3574-42CF-A703-7594C56DBECA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTime.NET.Tests", "ClickTime.NET.Tests\ClickTime.NET.Tests.csproj", "{D89BFE7F-3531-4457-9B3E-70978C058968}"
+	ProjectSection(ProjectDependencies) = postProject
+		{90813C07-D9E6-484B-8320-EE9CA7E0FC08} = {90813C07-D9E6-484B-8320-EE9CA7E0FC08}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTime.NET.Generated", "ClickTime.NET.Generated\ClickTime.NET.Generated.csproj", "{90813C07-D9E6-484B-8320-EE9CA7E0FC08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,9 @@ Global
 		{D89BFE7F-3531-4457-9B3E-70978C058968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D89BFE7F-3531-4457-9B3E-70978C058968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D89BFE7F-3531-4457-9B3E-70978C058968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90813C07-D9E6-484B-8320-EE9CA7E0FC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90813C07-D9E6-484B-8320-EE9CA7E0FC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90813C07-D9E6-484B-8320-EE9CA7E0FC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90813C07-D9E6-484B-8320-EE9CA7E0FC08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

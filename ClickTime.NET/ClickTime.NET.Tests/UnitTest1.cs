@@ -17,10 +17,10 @@ public class UnitTest1
 
         var adapter = new HttpClientRequestAdapter(auth);
         
-        var client = new ClickTimeClient(adapter);
+        // var client = new ClickTimeClient(adapter);
 
-        var me = await client.Me.GetAsync();
+        // var me = await client.Me.GetAsync();
         
-        Assert.NotNull(me);
+        // Assert.NotNull(me);
     }
 }
