@@ -2,10 +2,10 @@ using StrEnum;
 
 namespace ClickTime.NET.Enums;
 
-public class EnvironmentVariableEnums : StringEnum<EnvironmentVariableEnums>
+internal sealed class EnvironmentVariableEnums : StringEnum<EnvironmentVariableEnums>
 {
-    public static readonly EnvironmentVariableEnums Email = Define("ClickTimeClient:Email");
-    public static readonly EnvironmentVariableEnums Password = Define("ClickTimeClient:Password");
-    public static readonly EnvironmentVariableEnums AuthToken = Define("ClickTimeClient:AuthToken");
-    public static readonly EnvironmentVariableEnums AllowedHosts = Define("ClickTimeClient:AllowedHosts");
+    internal static readonly EnvironmentVariableEnums Email = Define("ClickTimeClient:Email");
+    internal static readonly EnvironmentVariableEnums Password = Define("ClickTimeClient:Password");
+    internal static readonly EnvironmentVariableEnums AuthToken = Define("ClickTimeClient:AuthToken");
+    internal static readonly EnvironmentVariableEnums AllowedHosts = Define("ClickTimeClient:AllowedHosts");
 }

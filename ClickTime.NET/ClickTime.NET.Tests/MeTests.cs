@@ -8,13 +8,13 @@ public class MeTests
         var adapter = Substitute.For<IRequestAdapter>();
         var client = ClickTimeClientHelper.Create(adapter);
 
-        var expectedMe = new UserModel_Me()
+        var expectedMe = new UserModel_Me
         {
-            Data = new Models.Get.UserModel_Me(){ EmployeeNumber = "12345"}
+            Data = new Models.Get.UserModel_Me { EmployeeNumber = "12345"}
         };
 
         adapter.SendAsync(Arg.Any<RequestInformation>()
-                , Arg.Any<ParsableFactory<Models.ResponseBodyGet.UserModel_Me>>()
+                , Arg.Any<ParsableFactory<UserModel_Me>>()
                 , Arg.Any<Dictionary<string, ParsableFactory<IParsable>>>(),
                 Arg.Any<CancellationToken>())
             .Returns(expectedMe);
@@ -33,9 +33,9 @@ public class MeTests
         var adapter = Substitute.For<IRequestAdapter>();
         var client = ClickTimeClientHelper.Create(adapter);
         
-        var expectedMe = new UserModel_Me()
+        var expectedMe = new UserModel_Me
         {
-            Data = new Models.Get.UserModel_Me(){ Name = "Alice"}
+            Data = new Models.Get.UserModel_Me { Name = "Alice"}
         };
 
         var request = new Models.Patch.UserModel_Me
@@ -44,7 +44,7 @@ public class MeTests
         };
 
         adapter.SendAsync(Arg.Any<RequestInformation>()
-                , Arg.Any<ParsableFactory<Models.ResponseBodyGet.UserModel_Me>>()
+                , Arg.Any<ParsableFactory<UserModel_Me>>()
                 , Arg.Any<Dictionary<string, ParsableFactory<IParsable>>>(),
                 Arg.Any<CancellationToken>())
             .Returns(expectedMe);
@@ -62,9 +62,9 @@ public class MeTests
         var adapter = Substitute.For<IRequestAdapter>();
         var client = ClickTimeClientHelper.Create(adapter);
 
-        var expectedResponse = new UserAuthTokenModel()
+        var expectedResponse = new UserAuthTokenModel
         {
-            Data = new Models.Get.UserAuthTokenModel() { Token = Guid.NewGuid().ToString() }
+            Data = new Models.Get.UserAuthTokenModel { Token = Guid.NewGuid().ToString() }
         };
 
         adapter.SendAsync(Arg.Any<RequestInformation>()

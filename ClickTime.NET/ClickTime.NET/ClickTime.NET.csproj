@@ -9,10 +9,11 @@
         <RepositoryUrl>https://github.com/matthewj-dev/ClickTime.NET</RepositoryUrl>
         <Company>matthewj</Company>
         <Copyright>Matthew Jackson ©</Copyright>
-        <Version>0.1.1</Version>
+        <Version>1.1.1</Version>
         <Title>ClickTime API on .NET</Title>
         <PackageTags>ClickTime, API, Wrapper, OpenAPI, Swagger, CodeGen, Kiota</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReleaseNotes>Updating API documentation, adding readme, change API for creating email:password clients</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
