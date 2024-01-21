@@ -1,6 +1,3 @@
-using UserAuthTokenModel = ClickTime.NET.Models.ResponseBodyGet.UserAuthTokenModel;
-using UserModel_Me = ClickTime.NET.Models.ResponseBodyGet.UserModel_Me;
-
 namespace ClickTime.NET.Tests;
 
 public class MeTests
