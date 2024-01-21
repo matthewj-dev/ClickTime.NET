@@ -20,7 +20,6 @@ public class MeTests
             .Returns(expectedMe);
         
         var me = await client.Me.GetAsync();
-
         
         Assert.NotNull(me);
         Assert.NotNull(me.Data);

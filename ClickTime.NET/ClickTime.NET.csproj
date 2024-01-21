@@ -8,9 +8,9 @@
         <Description>Wrapper for API @ https://developer.clicktime.com/docs/api/</Description>
         <RepositoryUrl>https://github.com/matthewj-dev/ClickTime.NET</RepositoryUrl>
         <Company>matthewj</Company>
-        <Copyright>Matthew Jackson ©</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Version>1.1.1</Version>
-        <Title>ClickTime API on .NET</Title>
+        <Title>ClickTime API Wrapper for .NET</Title>
         <PackageTags>ClickTime, API, Wrapper, OpenAPI, Swagger, CodeGen, Kiota</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageReleaseNotes>Updating API documentation, adding readme, change API for creating email:password clients</PackageReleaseNotes>
@@ -24,6 +24,15 @@
       <PackageReference Include="Microsoft.Kiota.Serialization.Multipart" Version="1.1.1" />
       <PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.1.1" />
       <PackageReference Include="StrEnum" Version="2.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\LICENSE">
+        <Link>LICENSE</Link>
+      </Content>
+      <Content Include="..\README.md">
+        <Link>README.md</Link>
+      </Content>
     </ItemGroup>
 
 </Project>
