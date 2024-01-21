@@ -8,7 +8,11 @@
         <Description>Wrapper for API @ https://developer.clicktime.com/docs/api/</Description>
         <PackageLicenseUrl>https://opensource.org/license/mit/</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/matthewj-dev/ClickTime.NET</RepositoryUrl>
-        <Company>matthew</Company>
+        <Company>matthewj</Company>
+        <Copyright>Matthew Jackson ©</Copyright>
+        <Version>0.1.0</Version>
+        <Title>ClickTime API on .NET</Title>
+        <PackageTags>ClickTime, API, Wrapper, OpenAPI, Swagger, CodeGen, Kiota</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,7 +22,6 @@
       <PackageReference Include="Microsoft.Kiota.Serialization.Json" Version="1.1.2" />
       <PackageReference Include="Microsoft.Kiota.Serialization.Multipart" Version="1.1.1" />
       <PackageReference Include="Microsoft.Kiota.Serialization.Text" Version="1.1.1" />
-      <PackageReference Include="NSubstitute" Version="5.1.0" />
       <PackageReference Include="StrEnum" Version="2.0.2" />
     </ItemGroup>
 
