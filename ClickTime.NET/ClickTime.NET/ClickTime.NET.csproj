@@ -6,13 +6,13 @@
         <Nullable>enable</Nullable>
         <Authors>Matthew Jackson</Authors>
         <Description>Wrapper for API @ https://developer.clicktime.com/docs/api/</Description>
-        <PackageLicenseUrl>https://opensource.org/license/mit/</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/matthewj-dev/ClickTime.NET</RepositoryUrl>
         <Company>matthewj</Company>
         <Copyright>Matthew Jackson ©</Copyright>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Title>ClickTime API on .NET</Title>
         <PackageTags>ClickTime, API, Wrapper, OpenAPI, Swagger, CodeGen, Kiota</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
